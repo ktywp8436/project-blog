@@ -1,0 +1,105 @@
+.head {
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button > a:first-child {
+   margin-right: 20px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+}
+.login {
+    border: 3px solid #159EDC;
+    border-radius: 8px;
+    color: #159EDC;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 40px;
+}
+.login:hover {
+    color: white;
+    background-color: #159EDC;
+}
+.signup {
+    background-color: #159EDC;
+    border-radius: 8px;
+    width: 80px;
+    color: white;
+    border: 3px solid #159EDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 40px;
+}
+.signup:hover {
+    background-color: white;
+    color: #159EDC;
+}
+.title {
+    font-weight: bold;
+    display: flex;
+    height: 100px;
+    font-size: 32px;
+    align-items: center;
+}
+.body {
+    height: 2000px;
+    background-color: lightgray;
+}
+.foot {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+.left {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.right {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.right > a {
+    height: 100%;
+    width: 100px;
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.right > a:hover {
+    background-color: white;
+    color: black;
+
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+a {
+    color: black;
+}
+.body {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+.body > div {
+    
+}
+
